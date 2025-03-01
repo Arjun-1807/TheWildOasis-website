@@ -2,9 +2,6 @@
 
 /starter
 
-error.js
-not-found.js
-
 # dependencies
 /node_modules
 /.pnp
