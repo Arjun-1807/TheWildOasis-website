@@ -1,3 +1,6 @@
+import "react-day-picker/dist/style.css";
+import "@/app/_styles/globals.css";
+
 import Image from "next/image";
 import Link from "next/link";
 

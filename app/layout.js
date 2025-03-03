@@ -1,5 +1,4 @@
-import Logo from "@/app/_components/Logo";
-import Navigation from "@/app/_components/Navigation";
+import "react-day-picker/dist/style.css";
 
 import { Josefin_Sans } from "next/font/google";
 
@@ -24,6 +23,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/react-day-picker/lib/style.css"
+        />
+      </head>
       <body
         className={`${josefin.className} antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col relative`}
       >
